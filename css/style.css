@@ -8,13 +8,14 @@ body {
 }
 
 .container {
+  width: 100%
   margin: 0 auto;
-  min-width: 575px;
+
 }
 
 .preview {
-  width: 200px;
-  height: 200px;
+  width: 100%;
+  height: 300px;
   margin-top: 20px;
   display: block;
   padding: 40px 40px 20px 20px;
@@ -22,17 +23,25 @@ body {
 
 
 .baku {
-  background: #fff url(../images/baku.jpg) no-repeat top center;
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+  background-position: left;
 }
 
 .london {
-  background: #fff url(../images/london.png) no-repeat top center;
+  background: #fff url(../images/london.png);
+  background-size: cover;
+  background-position: left;
 }
 
 .madrid {
-  background: #fff url(../images/madrid.jpg) no-repeat top center;
+  background: #fff url(../images/madrid.jpg);
+  background-size: cover;
+  background-position: left;
 }
 
 .rome {
-  background: #fff url(../images/rome.jpg) no-repeat top center;
+  background: #fff url(../images/rome.jpg);
+  background-size: cover;
+  background-position: left;
 }
